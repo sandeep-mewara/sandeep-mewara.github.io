@@ -2,7 +2,10 @@ theme: jekyll-theme-minimal
 title: Sandeep Mewara
 logo: /assets/img/sandeep-mewara.png
 google_analytics:
-description: > 📫:
+description: Here I Am!
+<br>
+<br>
+<p>Find Me</p>
 <br>
 <a href="https://www.linkedin.com/in/sandeepmewara"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=linkedin&style=flat&color=0077B5&logo=linkedin" alt="my-linkedin"/></a><br>
 <a href="https://www.twitter.com/_smewara"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=twitter&?style=flat&color=1DA1F2&logo=twitter" alt="my-twitter"/></a><br>
