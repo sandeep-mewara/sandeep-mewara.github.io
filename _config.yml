@@ -2,7 +2,8 @@ theme: jekyll-theme-minimal
 title: Sandeep Mewara
 logo: /assets/img/sandeep-mewara.png
 google_analytics:
-description: Here I Am!
+description: >
+Here I Am!
 <br>
 <br>
 <p>Find Me</p>
@@ -13,3 +14,6 @@ description: Here I Am!
 <a href="https://medium.com/@sandeep.mewara"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=medium&style=flat&color=12100E&logo=medium" alt="my-medium-profile"/></a><br>
 <a href="https://www.kaggle.com/smewara"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=kaggle&style=flat&color=20BEFF&logo=kaggle" alt="my-kaggle-profile"/></a><br><br>
 <a href="https://learnbyinsight.com"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=website&style=flat&color=red&logo=embarcadero" alt="my-website"/></a><br><br>
+linkedin: sandeepmewara
+twitter_username: _smewara
+github_username:  sandeep-mewara
