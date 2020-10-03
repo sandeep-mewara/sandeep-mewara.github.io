@@ -5,6 +5,7 @@ google_analytics:
 description: Here I am!
 author: Sandeep Mewara
 website: https://learnbyinsight.com/
+website_title: Learn By Insight...
 
 # Jekyll
 permalink:          /:title/
