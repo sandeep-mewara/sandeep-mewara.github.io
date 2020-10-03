@@ -31,6 +31,20 @@
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
 
+        {% if site.show_social %}
+        <p><br>
+          Find me 📫:
+        </p>
+        <p class="view">
+            <a href="https://www.linkedin.com/in/sandeepmewara"><img width="100" src="https://img.shields.io/static/v1?label=&labelColor=505050&message=linkedin&style=flat&color=0077B5&logo=linkedin" alt="my-linkedin"/></a><br>
+            <a href="https://www.twitter.com/_smewara"><img width="100" src="https://img.shields.io/static/v1?label=&labelColor=505050&message=twitter&?style=flat&color=1DA1F2&logo=twitter" alt="my-twitter"/></a><br>
+            <a href="https://www.codeproject.com/Members/Sandeep-Mewara"><img width="100" src="https://img.shields.io/static/v1?label=&labelColor=505050&message=codeproject&style=flat&color=FFA500&logo=loop" alt="my-cp-profile"/></a><br>
+            <a href="https://medium.com/@sandeep.mewara"><img width="100" src="https://img.shields.io/static/v1?label=&labelColor=505050&message=medium&style=flat&color=12100E&logo=medium" alt="my-medium-profile"/></a><br>
+            <a href="https://www.kaggle.com/smewara"><img width="100" src="https://img.shields.io/static/v1?label=&labelColor=505050&message=kaggle&style=flat&color=20BEFF&logo=kaggle" alt="my-kaggle-profile"/></a><br><br>
+            <a href="https://learnbyinsight.com"><img src="https://img.shields.io/static/v1?label=&labelColor=505050&message=website&style=flat&color=red&logo=embarcadero" alt="my-website"/></a><br>
+        </p>
+        {% endif %}
+
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -48,7 +62,7 @@
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hosted on GitHub Pages maintained by  <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>

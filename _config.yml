@@ -2,7 +2,22 @@ theme: jekyll-theme-minimal
 title: Sandeep Mewara
 logo: /assets/img/sandeep-mewara.png
 google_analytics:
-description: Here I am
+description: Here I am!
+author: Sandeep Mewara
+
+# Jekyll
+permalink:          /:title/
+
+# Social
+show_social: true
 linkedin: sandeepmewara
 twitter_username: _smewara
 github_username:  sandeep-mewara
+
+# Gems
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock]
